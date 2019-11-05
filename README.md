@@ -1,13 +1,11 @@
-<<<<<<< HEAD
+
 # semana-javascript4
 =======
 # T8-javascript-IV
 Turma 8 | Front-end | 2019 | Semana 13 | Javascript IV
 
-<<<<<<< HEAD
-Develop
->>>>>>> upstream/aula2
-=======
+
+
 > Nessa semana revisaremos o conteúdo de javascript pré react.
 
 ---
@@ -116,4 +114,4 @@ E ao final fizemos o processo de Pull Request pelo github
 - [Git flow - github](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
 - [Git flow - gitlab](https://docs.gitlab.com/ee/workflow/gitlab_flow.html)
 - [Git flow - bitbucket](https://br.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
->>>>>>> upstream/aula2
+

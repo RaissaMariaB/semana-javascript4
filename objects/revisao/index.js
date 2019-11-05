@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function Professor(nome, idade, corFavorita) {
     this.nome = nome,
     this.idade = idade ,
@@ -9,7 +8,6 @@ function Professor(nome, idade, corFavorita) {
 let profNovo = new Professor("Roberto", 29, "vermelho" )
 
 console.log(profNovo)
-=======
 const crianca = new Object
 console.log(typeof crianca)
 crianca.nome = "Elaine"
@@ -239,4 +237,3 @@ novaFilha.profissao = "Atriz"
 console.log(novaFilha)
 const novaMae = new Mae
 console.log(novaMae)
->>>>>>> upstream/aula2

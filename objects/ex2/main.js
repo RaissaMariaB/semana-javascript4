@@ -6,3 +6,37 @@ const users = [{
   nome: "Doge",
   imagem: "https://images-na.ssl-images-amazon.com/images/I/81-yKbVND-L._SY355_.png"
 }]
+
+class Avatar  {
+  constructor(srcImagem, nome, cor){
+    this.srcImagem = srcImagem ,
+    this.nome = nome
+    this.cor = cor
+
+  }
+
+  mostraAvatarString(){
+    const div = `<div class = "card-avatar ${this.cor}">
+       <img class = "img-rounded" src = "${this.srcImagem}"> </img> 
+          <p> ${this.nome} </p>
+       </div>
+    `
+    
+    document.getElementById("cards-section").insertAdjacentHTML("beforeend", div)
+    
+  }
+  
+}
+
+// const avatar2 = new Avatar(users[0].imagem , users[0].nome, "red" )
+
+// avatar2.mostraAvatarString()
+
+users.map(indice => {
+
+   new Avatar( indice.imagem , indice.nome, "green ").mostraAvatarString()
+  
+});
+
+
+
