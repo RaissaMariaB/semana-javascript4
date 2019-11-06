@@ -36,6 +36,19 @@ resultados.map(receita => {
     return new Card(receita).render()
 }).join("")
 
+ 
+const limpar = (value)=>{
+    if(!value){
+        document.querySelector('.cards').innerHTML = 
+resultados.map(receita => {
+    return new Card(receita).render()
+}).join("")
+
+    }
+}
+
+
+
 document.querySelector('.button__search').addEventListener('click', function(){
     let inputValue = document.querySelector('.input__search').value.toUpperCase()
     let achados = resultados.filter(receita => {
