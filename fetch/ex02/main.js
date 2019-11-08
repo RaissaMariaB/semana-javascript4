@@ -32,3 +32,10 @@ cepInput.addEventListener("blur", ()=>{
 })
 
 
+// preencheInputs = objeto => {
+//     logradouroInput.value = objeto.logradouro
+//     complementoInput.value = objeto.complemento
+//     bairroInput.value = objeto.bairro
+//     localidadeInput.value = objeto.localidade
+//     ufInput.value = objeto.uf
+// }
