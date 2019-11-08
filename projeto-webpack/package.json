@@ -1,0 +1,30 @@
+{
+  "name": "semana-javascript4",
+  "version": "1.0.0",
+  "description": "Turma 8 | Front-end | 2019 | Semana 13 | Javascript IV",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaissaMariaB/semana-javascript4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaissaMariaB/semana-javascript4/issues"
+  },
+  "homepage": "https://github.com/RaissaMariaB/semana-javascript4#readme",
+  "devDependencies": {
+    "webpack": "4.8.1",
+    "webpack-cli": "2.1.3",
+    "style-loader": "0.21.0",
+    "css-loader": "0.28.11",
+    "mini-css-extract-plugin": "0.4.0",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0"
+  }
+}
